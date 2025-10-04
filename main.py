@@ -17,7 +17,7 @@ app = FastAPI(title="Government Projects Search API")
 # CORS 설정 (프론트엔드에서 접근 가능하도록)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*", "https://your-app.vercel.app"],  # 프로덕션에서는 구체적인 도메인으로 제한
+    allow_origins=["*", "https://subject-frontend-qdw7.vercel.app"],  # 프로덕션에서는 구체적인 도메인으로 제한
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
