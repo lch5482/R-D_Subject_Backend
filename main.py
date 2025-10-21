@@ -249,6 +249,9 @@ async def get_stats():
         print(f"통계 조회 오류: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+
+        
+
 # 서버 실행
 if __name__ == "__main__":
     import uvicorn
